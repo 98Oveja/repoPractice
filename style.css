@@ -4,5 +4,30 @@
     margin: 0px;
 }
 body{
-    background-color: beige;
+    background-color: white;
+}
+header{
+    background-color: black;
+    display: flex;
+    color: #ffaa00;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+    padding: 5px 20px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+li a{
+    text-decoration: none;
+    color: #ffaa00;
+}
+li a:hover{
+    text-decoration:underline;
+    color: white;
 }
